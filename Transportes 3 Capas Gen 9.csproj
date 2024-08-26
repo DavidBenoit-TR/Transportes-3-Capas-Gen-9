@@ -109,6 +109,7 @@
     <Content Include="Connected Services\WS_Calculadora\Transportes_3_Capas_Gen_9.WS_Calculadora.HelloWorldResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </Content>
+    <Content Include="Login.aspx" />
     <Content Include="WS\WS_Camiones.asmx" />
     <None Include="Connected Services\WS_Calculadora\WS_Calculadora.disco" />
     <None Include="Connected Services\WS_Calculadora\configuration91.svcinfo" />
@@ -259,6 +260,13 @@
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Site.Master.cs">
